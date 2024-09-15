@@ -13,7 +13,7 @@ boolean universeBroken = 1 == 2;
 System.out.println(universeBroken);
 
 int loneliestNumber = 1;
-int otherLonelyNumber = 2;
+int canBeAsBadAsOne = 2;
 
 // this will be true
 boolean bothLonely = loneliestNumber == (otherLonelyNumber - 1);
