@@ -51,6 +51,8 @@ value = (value + 1) % 3;
 System.out.println(value);
 
 // and so on.
+```
+Notice in the above example how the operand 3 will never be printed. One way to think of a remainder is as the value left over when 3 is subtracted from a number until the number left over is less than 3. If there was a remainder of 3, then 3 could be taken away from the difference, yielding 0. When using remainders to loop through a set of integers, pick a divisor that is one greater than the maximum number you want to include in the loop.
 ~}
 ```
 
