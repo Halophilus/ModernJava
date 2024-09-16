@@ -13,7 +13,7 @@ System.out.println(y);
 ~}
 ```
 
-Division with integers gives results in only the [quotient](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-quotient-remainder-theorem) of the result, not the remainder.
+Division with integers gives results in only the whole number [quotient](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-quotient-remainder-theorem) of the result, not the remainder.
 
 So `5 / 2` does not result in `2.5`, but instead just `2`.
 
